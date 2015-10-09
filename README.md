@@ -1,7 +1,7 @@
-###Docker typescript container based on the [Alpine Linux](alpinelinux.org) 
+### Docker typescript container based on the [Alpine Linux](alpinelinux.org) 
 
 
-#### **How to use:**
+##### **How to use:**
   - **If you want to run npm, node or a typescript stuff**
     - Make an alias:  
      `alias gofmt="docker run --rm -v $(pwd):/home/developer/workspace jare/typescript npm"`
