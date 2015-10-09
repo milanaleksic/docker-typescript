@@ -2,8 +2,8 @@
 
 
 ##### **How to use:**
-  - **If you want to run npm, node or a typescript stuff**
+  - **If you want to run node or a typescript stuff**
     - Make an alias:  
-     `alias npm="docker run --rm -v $(pwd):/home/developer/workspace jare/typescript npm"`
-    - Have fun!  `npm install -g bower`
+     `alias tsc="docker run --rm -v $(pwd):/home/developer/workspace jare/typescript tsc"`
+    - Have fun!  `tsc -h`
   - **Also you can use this image as a docker volume. [See `jare/vim-bundle`](https://registry.hub.docker.com/u/jare/vim-bundle/)**
