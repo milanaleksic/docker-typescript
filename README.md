@@ -1,5 +1,5 @@
-Docker typescript container based on the [Alpine Linux](alpinelinux.org) 
-------------------------------------------------------------------------
+###Docker typescript container based on the [Alpine Linux](alpinelinux.org) 
+
 
 #### **How to use:**
   - **If you want to run npm, node or a typescript stuff**
