@@ -11,6 +11,7 @@ RUN apk --update add nodejs curl tar                             && \
     curl -L https://www.npmjs.com/install.sh | sh                && \
     rm -rf /usr/bin/npm  /home/developer/*                       && \
     ln -s /usr/lib/node_modules/npm/bin/npm-cli.js /usr/bin/npm  && \
+    npm install tsd -g                                           && \
     apk del curl tar                                             && \ 
     sh /util/ocd-clean /                                         && \
     mkdir -p /home/developer/workspace                         
