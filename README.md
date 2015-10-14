@@ -9,5 +9,6 @@
     - Have fun!  `tsc -h`
   - **Also you can use this image as a docker volume. [See `jare/vim-bundle`](https://registry.hub.docker.com/u/jare/vim-bundle/)**
 
-
-*[tsd](https://github.com/DefinitelyTyped/tsd) pre-installed* 
+##### **bundled:**
+  - **[`tsd`](https://www.npmjs.com/package/tsd)** 
+  - **[`http-server`](https://www.npmjs.com/package/http-server)** 
