@@ -1,4 +1,4 @@
-### Docker typescript container based on the [Alpine Linux](alpinelinux.org) 
+### Docker TypeScript container based on the [Alpine Linux](alpinelinux.org) 
 
 `jare/typescript:latest`  
 [![jare/typescript:latest](https://badge.imagelayers.io/jare/typescript:latest.svg)](https://imagelayers.io/?images=jare/typescript:latest 'jare/typescript:latest') 
