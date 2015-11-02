@@ -4,7 +4,7 @@
 [![jare/typescript:latest](https://badge.imagelayers.io/jare/typescript:latest.svg)](https://imagelayers.io/?images=jare/typescript:latest 'jare/typescript:latest') 
 
 ##### **How to use:**
-  - **If you want to run node or a typescript stuff**
+  - **If you want to run node or a typescript stuff:**
     - Make an alias:  
      `alias tsc="docker run --rm -v $(pwd):/home/developer/workspace jare/typescript tsc"`
     - Have fun!  `tsc -h`
