@@ -8,7 +8,7 @@
     - Make an alias:  
      `alias tsc="docker run --rm -v $(pwd):/home/developer/workspace jare/typescript tsc"`
     - Have fun!  `tsc -h`
-  - **Also you can use this image as a docker volume. [See `jare/vim-bundle`](https://registry.hub.docker.com/u/jare/vim-bundle/)**
+  - **Or you can use this image as a docker volume. [See `jare/vim-bundle`](https://registry.hub.docker.com/u/jare/vim-bundle/)**
 
 ##### **bundled:**
   - **[`tsd`](https://www.npmjs.com/package/tsd)** 
