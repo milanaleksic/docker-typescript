@@ -16,3 +16,5 @@ RUN apk --update add nodejs curl tar                             && \
     apk del curl tar                                             && \ 
     sh /util/ocd-clean /                                         && \
     mkdir -p /home/developer/workspace                         
+
+WORKDIR /home/developer/workspace
