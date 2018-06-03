@@ -1,8 +1,10 @@
-from jare/alpine
+from alpine
 
-MAINTAINER JAremko <w3techplaygound@gmail.com>
+MAINTAINER milanaleksic <milanaleksic@gmail.com>
 
 ENV PATH $PATH:/usr/lib/node_modules/bin
+
+ADD ocd-clean /util/
 
 RUN apk --update add nodejs curl tar                             && \
     npm install --prefix /usr/lib/node_modules/ -g typescript    && \
